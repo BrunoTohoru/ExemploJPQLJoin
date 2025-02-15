@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    
+    <groupId>br.edu.ifpr</groupId>
+    <artifactId>JPQL_Exemplo</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>21</java.version> <!-- Aqui você configura a versão do Java para o Maven -->
+        <exec.mainClass>br.edu.ifpr.jpql_exemplo.JPQL_Exemplo</exec.mainClass>
+    </properties>
+
+    <dependencies>
+        <!-- Dependência do MySQL -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.33</version>
+        </dependency>
+        
+        <!-- Dependência do Hibernate Core -->
+        <dependency>
+            <groupId>org.hibernate.orm</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>6.5.2.Final</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.10.1</version> <!-- Versão mais recente do plugin -->
+            <configuration>
+                <source>21</source> <!-- Define a versão de código fonte -->
+                <target>21</target> <!-- Define a versão alvo -->
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
+
+</project>

@@ -1,0 +1,11 @@
+br\edu\ifpr\model\dao\GenericDAO.class
+br\edu\ifpr\model\bean\Cliente.class
+br\edu\ifpr\model\bean\Produto.class
+br\edu\ifpr\model\dao\ComentarioDAO.class
+br\edu\ifpr\model\bean\Noticia.class
+br\edu\ifpr\test\Teste.class
+br\edu\ifpr\model\dao\ClienteDAO.class
+br\edu\ifpr\model\util\PersistenceUtil.class
+br\edu\ifpr\model\dao\ProdutoDAO.class
+br\edu\ifpr\model\bean\Comentario.class
+br\edu\ifpr\model\dao\NoticiaDAO.class
