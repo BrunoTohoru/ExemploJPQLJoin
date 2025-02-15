@@ -1,0 +1,2 @@
+# ExemploJPQLJoin
+atividade LP3
